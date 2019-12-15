@@ -1,18 +1,10 @@
-import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import React, {Component, Fragment} from 'react';
+import Router from './src/Router';
 
 export default class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-
-  render() {
-    return (
-      <View>
-        <Text> App </Text>
-      </View>
-    );
-  }
+	render() {
+		return (
+			<Router/>
+		);
+	}
 }
